@@ -1,0 +1,154 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+body {
+    color: #eaeaea; 
+    font-family: 'Nova Cut', sans-serif;
+    background-color: #121212;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+header {
+    background-color: #1a1a1a; 
+    color: #eaeaea;
+    padding: 60px 120px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #7a1f38;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    transition: color 0.3s ease, text-shadow 0.3s ease; 
+} 
+
+header h1:hover{
+    color: #b88b42;
+    text-shadow: 2px 2px 12px rgba(184, 139, 66, 0.6);
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 0px; 
+    margin-left: 0px; 
+}
+
+/*
+nav {
+    margin: 0; 
+    padding: 0;  
+    display: block;
+}*/
+
+nav > ul > li {
+    margin: 0 10px 25px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+    /*list-style: none;*/
+    padding: 0; 
+}
+
+nav a {
+    color: #eaeaea;
+    text-decoration: none; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+nav a:hover {
+    color: #7a1f38;
+    transform: scale(1.1);
+}
+
+img {
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+img:hover{
+    filter: brightness(0.85); 
+}
+
+#image {
+    margin-top: 10px;   
+    margin-left: 60px; 
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 180px; 
+    font-size: 1.1rem;  
+    color: #9e9e9e;
+    font-style: italic; 
+    
+}
+
+.d {
+    background-color: #263238;
+}
+
+#biography, #tribute-info, #timeline, #quotes1, #quotes, #bio{
+    padding: 40px;
+    margin: 20px; 
+    display: flex; 
+    flex-wrap: wrap;
+    line-height: 1.8;
+    background-color: #3a444b;
+    color: #eaeaea;
+    border-radius: 20px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+#biography:hover, #tribute-info:hover, #timeline:hover, #quotes1:hover, #quotes:hover, #bio:hover{
+    background-color: #4b5d64;
+}
+
+li {
+    margin: 20px;
+    list-style: none;
+}
+
+footer p {
+    padding-left: 550px; 
+    margin: 20px 20px; 
+    line-height: 1.8;
+}
+
+footer a {
+    color: #7a1f38;
+    font-weight: bold;
+    padding-left: 650px; 
+    margin: 20px 20px; 
+    display: flex; 
+    flex-wrap: wrap;
+    line-height: 1.8;
+    padding-bottom: 20px;
+    border-color: #7a1f38; 
+    border-width: 2px;
+    transition: all 0.3s ease; 
+}
+
+footer a:hover{
+    color: #eaeaea;
+    background-color: #7a1f38;
+    border-color: #7a1f38; 
+    transform: scale(1.05); 
+}
+
+
